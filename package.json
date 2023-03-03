@@ -2,9 +2,9 @@
   "name": "webcontainers-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -13,5 +13,8 @@
   "devDependencies": {
     "sass": "^1.58.3",
     "vite": "^4.1.4"
+  },
+  "dependencies": {
+    "@webcontainer/api": "^1.0.2"
   }
 }
